@@ -429,17 +429,15 @@ template {
 body {
   font-family: "Source Han Serif", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7em;
-  color: #4a4a4a;
+  color: #323a45;
   overflow-x: hidden;
 }
 a {
   text-decoration: none;
-  color: #686868;
-  border-bottom: 1px #686868 solid;
+  color: #38ae70;
 }
 a:hover {
-  color: #0e0e0e;
-  border-bottom: 1px #0e0e0e solid;
+  text-decoration: underline;
 }
 figure.highlight {
   display: block;
@@ -476,7 +474,7 @@ blockquote {
   margin: 1em 0;
   padding: 0 40px;
   box-sizing: border-box;
-  border-left: 2px solid #4a4a4a;
+  border-left: 2px solid #323a45;
 }
 .container {
   box-sizing: border-box;
@@ -812,13 +810,15 @@ blockquote {
 @media screen and (min-width: 1024px) {
   a.Btn {
     border-bottom: none;
+    color: #717171;
+    text-decoration: none;
   }
   a.Btn > li {
     padding-right: 1em;
     border-right: 3px #aaa solid;
   }
   a.Btn > li:hover {
-    border-right-color: #333;
+    border-right-color: #38ae70;
   }
   a.Btn.active > li {
     border-right-color: #333;
@@ -832,6 +832,11 @@ blockquote {
     height: 10em;
     width: auto;
     overflow: visible;
+  }
+  a.Btn {
+    border-bottom: none;
+    color: #717171;
+    text-decoration: none;
   }
   .menu {
     position: relative;
@@ -883,16 +888,13 @@ blockquote {
   color: #191919;
 }
 .ListView .title a:hover {
+  text-decoration: none;
   color: #39ae70;
-  border-bottom: 1px #39ae70 solid;
 }
 .ListMeta {
   font-size: 0.8em;
   color: #bbb;
   margin-bottom: 2.5em;
-}
-.ListMeta:hover {
-  color: #333;
 }
 .ListMeta ul {
   display: inline;
@@ -937,13 +939,13 @@ time {
   margin: 2.5em auto;
 }
 .ContentView .ArticleMeta a {
-  border-bottom: 1px #bbb solid;
+  border-bottom: 1px #38ae70 solid;
 }
 .ContentView .ArticleMeta:hover {
   color: #333;
 }
 .ContentView .ArticleMeta:hover a {
-  border-bottom: 1px #333 solid;
+  border-bottom: 1px #38ae70 solid;
 }
 .ContentView .ArticleMeta > div:nth-child(1) {
   position: relative;
