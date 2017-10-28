@@ -488,7 +488,7 @@ blockquote {
 .container > div > footer {
   width: 100%;
   text-align: center;
-  color: #ccc;
+  color: #9b9b9b;
   font-size: 14px;
   line-height: 20px;
   padding: 5rem 0 2rem;
@@ -518,14 +518,14 @@ blockquote {
 }
 .Archives h1,
 .Archives h2 {
-  font-weight: 400;
+  font-weight: 300;
 }
 .Archives h1::before,
 .Archives h2::before {
   position: absolute;
   left: -6px;
   content: '';
-  background-color: #ddd;
+  background-color: #9b9b9b;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -533,12 +533,16 @@ blockquote {
 }
 .Archives h1:hover::before,
 .Archives h2:hover::before {
-  background-color: #777;
-  transition: background-color 500ms ease;
+  background-color: #38ae70;
 }
 .Archives h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
+  color: #717171;
+}
+.Archives h2:hover {
+  text-decoration: none;
+  color: #38ae70;
 }
 .Archives h2::before {
   left: -5px;
@@ -873,13 +877,14 @@ blockquote {
 }
 .ListView {
   margin-bottom: 7em;
+  font-weight: 300;
 }
 .ListView .title {
   text-align: center;
 }
 .ListView .title h1 {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 0.3em;
   line-height: 125%;
 }
@@ -894,6 +899,7 @@ blockquote {
 .ListMeta {
   font-size: 0.8em;
   color: #bbb;
+  font-weight: 300;
   margin-bottom: 2.5em;
 }
 .ListMeta ul {
@@ -912,7 +918,7 @@ li.meta-text {
 }
 .PageTitle h1 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 0.3em;
   margin-left: -10%;
 }
