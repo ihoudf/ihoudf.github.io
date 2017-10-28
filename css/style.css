@@ -578,7 +578,7 @@ blockquote {
     height: 1px;
     width: 30%;
     background-color: #cdcdcd;
-    top: 1em;
+    top: 3em;
     margin: auto;
   }
   .Index,
@@ -892,6 +892,9 @@ blockquote {
   font-weight: 300;
   font-size: 1.1em;
 }
+.ListView p {
+  letter-spacing: 1px;
+}
 .ListView .title {
   text-align: center;
 }
@@ -952,6 +955,7 @@ time {
 .ContentView {
   padding-top: 4em;
   font-weight: 300;
+  letter-spacing: 2px;
 }
 .ContentView .ArticleMeta {
   font-size: 0.8em;
