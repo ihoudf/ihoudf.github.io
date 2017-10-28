@@ -1016,6 +1016,11 @@ time {
 .extend.next {
   left: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .ContentView {
+    font-size: 1.15em;
+  }
+}
 .TimeSection {
   overflow: hidden;
 }
