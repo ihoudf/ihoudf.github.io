@@ -469,6 +469,9 @@ code pre {
   font-size: 13px;
   line-height: 1.6em;
 }
+td >code {
+  padding: 0;
+}
 img {
   max-width: 100%;
 }

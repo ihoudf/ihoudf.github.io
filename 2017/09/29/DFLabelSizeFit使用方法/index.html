@@ -23,8 +23,6 @@
     <section class='menu'>
         <div>ihoudf</div>
         
-            <div>我的眼睛很好看，因为里面有你</div>
-        
         <ul>
           
             <a href="/" class="Btn" target="blank">
@@ -64,7 +62,7 @@
 
     <section>
       <h1 id="DFLabelSizeFit"><a href="#DFLabelSizeFit" class="headerlink" title="DFLabelSizeFit"></a>DFLabelSizeFit</h1><p><a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external"><img src="https://img.shields.io/badge/build-passing-green.svg"></a>&nbsp;<a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external"><img src="https://img.shields.io/badge/pod-1.1.2-yellow.svg"></a>&nbsp;<a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="blank"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>&nbsp;<a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external"><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>&nbsp;<a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external"><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>&nbsp;<a href="https://ihoudf.github.io/" target="blank"><img src="https://img.shields.io/badge/homepage-ihoudf-brightgreen.svg"></a></p>
-<h5 id="one-line-of-code-to-fit-label-size-一行代码自适应label-size"><a href="#one-line-of-code-to-fit-label-size-一行代码自适应label-size" class="headerlink" title="one line of code to fit label size.(一行代码自适应label size)"></a>one line of code to fit label size.(一行代码自适应label size)</h5><p><a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external">github地址</a></p>
+<h5 id="one-line-of-code-to-fit-label-size-一行代码自适应label-size"><a href="#one-line-of-code-to-fit-label-size-一行代码自适应label-size" class="headerlink" title="one line of code to fit label size.(一行代码自适应label size)"></a>one line of code to fit label size.(一行代码自适应label size)</h5><p><a href="https://github.com/ihoudf/DFLabelSizeFit" target="_blank" rel="external">-&gt;DFLabelSizeFit github地址</a></p>
 <a id="more"></a>
 <p><br><br><img width="375" src="https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4877.JPG?raw=true"></p>
 <h3 id="system-Requirements"><a href="#system-Requirements" class="headerlink" title="system Requirements"></a>system Requirements</h3><p>requires iOS 6.0+.</p>
@@ -73,29 +71,21 @@
 <h3 id="Document"><a href="#Document" class="headerlink" title="Document"></a>Document</h3><ul>
 <li>use these methods you should set label’s frame at first. </li>
 </ul>
-<p><br>1.single line text. the label height you get is the fontsize.According <em>textAlignment</em> set label’s frame.<br></p>
-<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFit;</div></pre></td></tr></table></figure>
+<p><br>1.single line text. the label height you get is the fontsize.According <em>textAlignment</em> set label’s frame.<br><br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFit;</div></pre></td></tr></table></figure></p>
 <p><br>2.single line text.only fit width. the label height you get is the frame.size.height you set.<br><br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFitKeepOldHeight;</div></pre></td></tr></table></figure></p>
-<p><br>3. Multiline text in one paragraph.<br><br>@param lineSpacing lineSpacing<br><br>@param singleLineKeepWidth  when single line,keep width you set or get the actual label width.<br></p>
-<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFitWithLineSpacing:(<span class="built_in">CGFloat</span>)lineSpacing</div><div class="line">                        singleLineKeepWidth:(<span class="built_in">BOOL</span>)singleLineKeepWidth;</div></pre></td></tr></table></figure>
-<p><br><em>4</em>. muti paragraph.<br></p>
-<p> @param lineSpacing  lineSpacing<br><br> @param paragraphSpacingBefore  paragraphSpacingBefore<br><br> @param alignment   alignment<br><br> @param isFirstLineHeadIndent   isFirstLineHeadIndent<br></p>
-<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFitWithLineSpacing:(<span class="built_in">CGFloat</span>)lineSpacing</div><div class="line">                     paragraphSpacingBefore:(<span class="built_in">CGFloat</span>)paragraphSpacingBefore</div><div class="line">                                  alignment:(<span class="built_in">NSTextAlignment</span>)alignment</div><div class="line">                      isFirstLineHeadIndent:(<span class="built_in">BOOL</span>)isFirstLineHeadIndent;</div></pre></td></tr></table></figure>
-<h3 id="License"><a href="#License" class="headerlink" title="License"></a>License</h3><p>provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="_blank" rel="external">LICENSE</a>  file for details.</p>
-<p><br><br><br></p>
+<p><br>3. Multiline text in one paragraph.<br><br>@param lineSpacing lineSpacing<br><br>@param singleLineKeepWidth  when single line,keep width you set or get the actual label width.<br><br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFitWithLineSpacing:(<span class="built_in">CGFloat</span>)lineSpacing</div><div class="line">                        singleLineKeepWidth:(<span class="built_in">BOOL</span>)singleLineKeepWidth;</div></pre></td></tr></table></figure></p>
+<p><br><em>4</em>. muti paragraph.<br><br> @param lineSpacing  lineSpacing<br><br> @param paragraphSpacingBefore  paragraphSpacingBefore<br><br> @param alignment   alignment<br><br> @param isFirstLineHeadIndent   isFirstLineHeadIndent<br><br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">UILabel</span> *)df_labelSizeFitWithLineSpacing:(<span class="built_in">CGFloat</span>)lineSpacing</div><div class="line">                     paragraphSpacingBefore:(<span class="built_in">CGFloat</span>)paragraphSpacingBefore</div><div class="line">                                  alignment:(<span class="built_in">NSTextAlignment</span>)alignment</div><div class="line">                      isFirstLineHeadIndent:(<span class="built_in">BOOL</span>)isFirstLineHeadIndent;</div></pre></td></tr></table></figure></p>
+<h3 id="License"><a href="#License" class="headerlink" title="License"></a>License</h3><p>provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="_blank" rel="external">LICENSE</a>  file for details.<br><br><br><br></p>
 <h2 id="中文介绍"><a href="#中文介绍" class="headerlink" title="中文介绍"></a>中文介绍</h2><h3 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h3><p>最低支持 iOS 6.0</p>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h6 id="CocoaPods-1"><a href="#CocoaPods-1" class="headerlink" title="CocoaPods"></a>CocoaPods</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">在 Podfile 中添加 pod &apos;DFLabelSizeFit&apos;。</div><div class="line">执行 pod install 或 pod update。</div><div class="line">导入 &quot;DFLabelSizeFit.h&quot;。</div></pre></td></tr></table></figure>
 <h6 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">下载 DFLabelSizeFit 文件夹内的所有内容。</div><div class="line">将 DFLabelSizeFit文件夹添加(拖放)到你的工程。</div><div class="line">import &quot;DFLabelSizeFit.h&quot;</div></pre></td></tr></table></figure>
 <h3 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h3><ul>
-<li>使用这些方法前你需要先设置label的frame</li>
+<li>使用这些方法前你需要先设置label的frame<br><br>1.单行。返回label高度是font值的pointSize。并根据textAlignment设置label的位置。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFit;</div></pre></td></tr></table></figure>
+</li>
 </ul>
-<p><br>1.单行。返回label高度是font值的pointSize。并根据textAlignment设置label的位置。<br></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFit;</div></pre></td></tr></table></figure>
 <p><br>2.单行。自适应宽。返回高为你设置的frame的height<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFitKeepOldHeight;</div></pre></td></tr></table></figure></p>
-<p><br>3. 多行<br><br>@param lineSpacing 行距<br><br>@param keepWidth 文字单行时是保持设置的frame的width还是返回实际的label的width<br></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFitWithLineSpacing:(CGFloat)lineSpacing</div><div class="line">                        singleLineKeepWidth:(BOOL)singleLineKeepWidth;</div></pre></td></tr></table></figure>
-<p><br>4. 多段落设置富文本<br><br> @param lineSpacing 行距<br><br> @param paragraphSpacingBefore 段落之间的间距<br><br> @param alignment 对齐方式<br><br> @param isFirstLineHeadIndent 首行是否缩进两字符<br></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFitWithLineSpacing:(CGFloat)lineSpacing</div><div class="line">                     paragraphSpacingBefore:(CGFloat)paragraphSpacingBefore</div><div class="line">                                  alignment:(NSTextAlignment)alignment</div><div class="line">                      isFirstLineHeadIndent:(BOOL)isFirstLineHeadIndent;</div></pre></td></tr></table></figure>
+<p><br>3. 多行<br><br>@param lineSpacing 行距<br><br>@param keepWidth 文字单行时是保持设置的frame的width还是返回实际的label的width<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFitWithLineSpacing:(CGFloat)lineSpacing</div><div class="line">                        singleLineKeepWidth:(BOOL)singleLineKeepWidth;</div></pre></td></tr></table></figure></p>
+<p><br>4. 多段落设置富文本<br><br> @param lineSpacing 行距<br><br> @param paragraphSpacingBefore 段落之间的间距<br><br> @param alignment 对齐方式<br><br> @param isFirstLineHeadIndent 首行是否缩进两字符<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (UILabel *)df_labelSizeFitWithLineSpacing:(CGFloat)lineSpacing</div><div class="line">                     paragraphSpacingBefore:(CGFloat)paragraphSpacingBefore</div><div class="line">                                  alignment:(NSTextAlignment)alignment</div><div class="line">                      isFirstLineHeadIndent:(BOOL)isFirstLineHeadIndent;</div></pre></td></tr></table></figure></p>
 <h3 id="许可证"><a href="#许可证" class="headerlink" title="许可证"></a>许可证</h3><p>使用 MIT 许可证，详情见<a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="_blank" rel="external">LICENSE</a> 文件。<br><br></p>
 <h1 id="THANKS"><a href="#THANKS" class="headerlink" title="THANKS!"></a>THANKS!</h1><p><br></p>
 <p><font color="#42C485">qq交流群：479873475</font><br><br></p>
@@ -109,8 +99,8 @@
       <section class='ArticleMeta'>
           <div>
             发布于&nbsp;
-            <time datetime="2017-10-29T02:37:50.000Z" itemprop="datePublished">
-              2017-10-29
+            <time datetime="2017-09-29T02:37:50.000Z" itemprop="datePublished">
+              2017-09-29
             </time>
           </div>
           
