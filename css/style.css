@@ -444,6 +444,10 @@ figure.highlight {
   width: 92%;
   margin: auto;
   overflow-x: auto;
+  border: 1px #d2d2d2 solid;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0px 0px 1px #7fffd4;
 }
 .highlight > table {
   width: 100%;
@@ -454,6 +458,7 @@ code {
   font-family: Monaco, Menlo, Consolas, 'Microsoft Yahei', monospace;
   font-size: 13px;
   margin: auto 5px;
+  background-color: #fafbfa;
 }
 figure.highlight pre,
 .code pre,
@@ -954,8 +959,9 @@ time {
 }
 .ContentView {
   padding-top: 4em;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #1a1a1a;
 }
 .ContentView .ArticleMeta {
   font-size: 0.8em;
